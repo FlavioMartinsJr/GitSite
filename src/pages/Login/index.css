@@ -1,0 +1,98 @@
+.containerFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.containerFormulario .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.containerFormulario .header span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.containerFormulario form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 360px;
+}
+.containerFormulario form  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.containerFormulario form  .inputContainer label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6d6f78;
+    line-height: 19px;
+    margin-bottom: 6px;
+   
+}
+  
+.containerFormulario form  .inputContainer input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    width: 400px;
+    height: 45px;
+    border: 1px solid #121317;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    
+}
+input #password{
+    position: relative;
+}
+
+.buttonIcon{
+    bottom: 45px;
+    left: 90%;
+    width: 1.7em;
+    height: 1.7em;
+    position: relative;
+}
+.buttonIcon:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.containerFormulario form .button {
+    width: 520px;
+    height: 48px;
+    background: #4763E4;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    width: 400px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.containerFormulario form .button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+@media (max-height: 760px) {
+    .containerFormulario form {
+        margin-bottom: 10px;
+    }
+}
